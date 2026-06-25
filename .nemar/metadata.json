@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004657",
+  "source": "openneuro",
+  "source_id": "ds004657",
+  "title": "Driving with Autonomous Aids",
+  "authors": {
+    "Jason Metcalfe": {},
+    "Amar Marathe": {},
+    "Tony Johnson": {},
+    "Stephen Gordon": {},
+    "Jon Touryan": {},
+    "Kevin King": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004657.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
