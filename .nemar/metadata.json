@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Driving with Autonomous Aids",
+  "description": "This dataset comprises physiological and behavioral recordings from a semi-automated driving task designed to investigate trust in automation (TiA). Participants completed lane maintenance, following distance control, and collision avoidance maneuvers with optional autonomous driving assistance under varying performance conditions. The study employed multimodal psychophysiological monitoring (EEG, EOG, ECG, EDA) and behavioral metrics to develop quantitative indicators for real-time assessment and prediction of operator trust dynamics in human-automation interaction.",
+  "methods_description": "Participants completed a semi-automated driving task involving lane maintenance, following distance from a lead vehicle, and collision avoidance with oncoming traffic and pedestrians. Multimodal physiological data were recorded including EEG, electrooculography (EOG), electrocardiography (ECG), electrodermal activity (EDA), and gaze position tracking. Behavioral data included subject vehicle control responses and button presses for collision avoidance. Six experimental conditions were tested: practice baseline, manual driving, full autonomy (good and bad performance), and speed-only autonomy (good and bad performance).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,44 +14,6 @@
     "Jon Touryan": {},
     "Kevin King": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004657.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004657",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004657",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.18112/openneuro.ds004657",
-      "identifier_type": "DOI",
-      "relation_type": "IsVersionOf"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset comprises physiological and behavioral recordings from a semi-automated driving task designed to investigate trust in automation (TiA). Participants completed lane maintenance, following distance control, and collision avoidance maneuvers with optional autonomous driving assistance under varying performance conditions. The study employed multimodal psychophysiological monitoring including EEG, electrooculography, electrocardiography, electrodermal activity, and gaze tracking to develop metrics for real-time assessment and prediction of operator trust in vehicle automation.",
-  "methods_description": "Participants performed a semi-automated driving task involving lane maintenance, following distance management, and collision avoidance with oncoming traffic and pedestrians. Autonomous driving assistance was available under operator control, capable of managing following distance alone or combined with lane position maintenance, but not collision avoidance. Physiological data were collected via EEG, EOG, ECG, and EDA, supplemented by gaze position tracking and vehicle control behavior recordings across six experimental conditions: practice, manual driving, and four autonomy conditions varying in capability and performance level (full/speed control × good/bad performance).",
   "keywords": [
     {
       "term": "EEG"
@@ -74,41 +38,53 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
     },
     {
-      "term": "Electrooculography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004563"
+      "term": "electrodermal activity"
     },
     {
-      "term": "Automation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001331"
+      "term": "EOG"
     },
     {
-      "term": "Driving",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004978"
+      "term": "ECG"
     },
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "autonomous driving"
     },
     {
-      "term": "Galvanic Skin Response",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005712"
+      "term": "automation"
     },
     {
       "term": "collision avoidance"
     },
     {
-      "term": "operator performance"
+      "term": "lane maintenance"
     },
     {
-      "term": "human factors"
+      "term": "following distance control"
     },
     {
-      "term": "TX20"
+      "term": "adaptive cruise control"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004657",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004657",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004657",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004657.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -121,5 +97,20 @@
       "award_number": "Not specified"
     }
   ],
-  "source_hash": "94034f9a2157f0f1264e30d3af153bd347d5292a339dc2f8b33e3b886a297acd"
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "46.2 GB (239 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "7d5bb7e6f14c94d8245a92a16064fd76b13431e2a2c5bf82bb58654a5b956ef4"
 }
