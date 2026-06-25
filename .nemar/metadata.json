@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004657",
-  "source": "openneuro",
-  "source_id": "ds004657",
+  "pipeline_stage": "enriched",
   "title": "Driving with Autonomous Aids",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Jason Metcalfe": {},
     "Amar Marathe": {},
@@ -12,21 +12,114 @@
     "Jon Touryan": {},
     "Kevin King": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004657.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004657",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004657",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004657",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises physiological and behavioral recordings from a semi-automated driving task designed to investigate trust in automation (TiA). Participants completed lane maintenance, following distance control, and collision avoidance maneuvers with optional autonomous driving assistance under varying performance conditions. The study employed multimodal psychophysiological monitoring including EEG, electrooculography, electrocardiography, electrodermal activity, and gaze tracking to develop metrics for real-time assessment and prediction of operator trust in vehicle automation.",
+  "methods_description": "Participants performed a semi-automated driving task involving lane maintenance, following distance management, and collision avoidance with oncoming traffic and pedestrians. Autonomous driving assistance was available under operator control, capable of managing following distance alone or combined with lane position maintenance, but not collision avoidance. Physiological data were collected via EEG, EOG, ECG, and EDA, supplemented by gaze position tracking and vehicle control behavior recordings across six experimental conditions: practice, manual driving, and four autonomy conditions varying in capability and performance level (full/speed control × good/bad performance).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "trust in automation"
+    },
+    {
+      "term": "human-automation interaction"
+    },
+    {
+      "term": "driving task"
+    },
+    {
+      "term": "Psychophysiology",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011603"
+    },
+    {
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+    },
+    {
+      "term": "Electrooculography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004563"
+    },
+    {
+      "term": "Automation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001331"
+    },
+    {
+      "term": "Driving",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004978"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Galvanic Skin Response",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005712"
+    },
+    {
+      "term": "collision avoidance"
+    },
+    {
+      "term": "operator performance"
+    },
+    {
+      "term": "human factors"
+    },
+    {
+      "term": "TX20"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "U.S. Department of Defense (DoD)",
+      "award_number": ""
+    },
+    {
+      "funder_name": "U.S. Department of Defense (DoD)",
+      "award_number": "Not specified"
+    }
+  ],
+  "source_hash": "94034f9a2157f0f1264e30d3af153bd347d5292a339dc2f8b33e3b886a297acd"
 }
