@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Driving with Autonomous Aids",
-  "description": "This dataset comprises physiological and behavioral recordings from a semi-automated driving task designed to investigate trust in automation (TiA). Participants completed lane maintenance, following distance control, and collision avoidance maneuvers with optional autonomous driving assistance under varying performance conditions. The study employed multimodal psychophysiological monitoring (EEG, EOG, ECG, EDA) and behavioral metrics to develop quantitative indicators for real-time assessment and prediction of operator trust dynamics in human-automation interaction.",
-  "methods_description": "Participants completed a semi-automated driving task involving lane maintenance, following distance from a lead vehicle, and collision avoidance with oncoming traffic and pedestrians. Multimodal physiological data were recorded including EEG, electrooculography (EOG), electrocardiography (ECG), electrodermal activity (EDA), and gaze position tracking. Behavioral data included subject vehicle control responses and button presses for collision avoidance. Six experimental conditions were tested: practice baseline, manual driving, full autonomy (good and bad performance), and speed-only autonomy (good and bad performance).",
+  "description": "This dataset comprises physiological and behavioral recordings from a semi-automated driving task designed to investigate trust in automation (TiA). Participants completed lane maintenance, following distance control, and collision avoidance maneuvers with optional autonomous driving assistance under varying performance conditions. The autonomous assistant could manage following distance alone or in combination with lane position maintenance, but collision avoidance required manual operator intervention. The study employed multimodal psychophysiological monitoring including EEG, electrooculography, electrocardiography, electrodermal activity, and gaze tracking to develop quantitative metrics for real-time assessment of operator trust and trust-related decision-making in human-autonomy vehicle control interactions.",
+  "methods_description": "Participants performed a semi-automated driving simulation task involving lane maintenance, following distance management, and collision avoidance with oncoming traffic and pedestrians. Multimodal physiological data were recorded including EEG, EOG, ECG, EDA, and gaze position tracking. The autonomous driving assistant could manage following distance alone or in combination with lane position maintenance, but required manual operator intervention for collision avoidance. Six experimental conditions were tested: practice baseline, manual driving, full autonomy with poor performance, full autonomy with good performance, speed-only autonomy with poor performance, and speed-only autonomy with good performance. State measures were derived from EEG, EOG, ECG, EDA, gaze position tracking, and subject vehicle control behaviors to develop psychophysiology-based metrics for monitoring trust in automation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,10 +22,10 @@
       "term": "trust in automation"
     },
     {
-      "term": "human-automation interaction"
+      "term": "human-machine interaction"
     },
     {
-      "term": "driving task"
+      "term": "driving simulation"
     },
     {
       "term": "Psychophysiology",
@@ -41,28 +41,19 @@
       "term": "electrodermal activity"
     },
     {
-      "term": "EOG"
+      "term": "eye tracking"
     },
     {
-      "term": "ECG"
+      "term": "autonomous vehicles"
     },
     {
-      "term": "autonomous driving"
+      "term": "vehicle automation"
     },
     {
-      "term": "automation"
+      "term": "operator workload"
     },
     {
-      "term": "collision avoidance"
-    },
-    {
-      "term": "lane maintenance"
-    },
-    {
-      "term": "following distance control"
-    },
-    {
-      "term": "adaptive cruise control"
+      "term": "cognitive load"
     }
   ],
   "related_identifiers": [
