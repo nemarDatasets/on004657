@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Driving with Autonomous Aids",
-  "description": "This dataset comprises physiological and behavioral recordings from a semi-automated driving task designed to investigate trust in automation (TiA). Participants completed lane maintenance, following distance control, and collision avoidance maneuvers with optional autonomous driving assistance under varying performance conditions. The autonomous assistant could manage following distance alone or in combination with lane position maintenance, but collision avoidance required manual operator intervention. The study employed multimodal psychophysiological monitoring including EEG, electrooculography, electrocardiography, electrodermal activity, and gaze tracking to develop quantitative metrics for real-time assessment of operator trust and trust-related decision-making in human-autonomy vehicle control interactions.",
-  "methods_description": "Participants performed a semi-automated driving simulation task involving lane maintenance, following distance management, and collision avoidance with oncoming traffic and pedestrians. Multimodal physiological data were recorded including EEG, EOG, ECG, EDA, and gaze position tracking. The autonomous driving assistant could manage following distance alone or in combination with lane position maintenance, but required manual operator intervention for collision avoidance. Six experimental conditions were tested: practice baseline, manual driving, full autonomy with poor performance, full autonomy with good performance, speed-only autonomy with poor performance, and speed-only autonomy with good performance. State measures were derived from EEG, EOG, ECG, EDA, gaze position tracking, and subject vehicle control behaviors to develop psychophysiology-based metrics for monitoring trust in automation.",
+  "description": "This dataset comprises multimodal physiological and behavioral recordings (EEG, EOG, ECG, EDA, and gaze tracking) collected during a semi-automated driving task designed to study trust in automation (TiA). Participants performed lane maintenance, following distance, and collision avoidance tasks under varying levels of autonomous driving assistance, with the aim of developing quantitative metrics that predict and track changes in operator trust. The research supports the development of psychophysiology-based indicators for real-time trust monitoring in human-autonomy interaction, relevant to military vehicle survivability and human factors research.",
+  "methods_description": "Participants completed a semi-automated driving task involving lane maintenance, following distance regulation, and collision avoidance, with an optional automated driving assistant that could manage following distance and/or lane position but not collision avoidance. Physiological data including EEG, EOG, ECG, EDA, and gaze position were recorded across six session conditions (Practice, Manual driving, Full Bad autonomy, Full Good autonomy, Speed Bad autonomy, and Speed Good autonomy).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,51 +19,27 @@
       "term": "EEG"
     },
     {
-      "term": "trust in automation"
+      "term": "EOG"
     },
     {
-      "term": "human-machine interaction"
-    },
-    {
-      "term": "driving simulation"
-    },
-    {
-      "term": "Psychophysiology",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D011603"
-    },
-    {
-      "term": "Electrocardiography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+      "term": "ECG"
     },
     {
       "term": "electrodermal activity"
     },
     {
-      "term": "eye tracking"
+      "term": "trust in automation"
     },
     {
-      "term": "autonomous vehicles"
+      "term": "human-autonomy interaction"
     },
     {
-      "term": "vehicle automation"
-    },
-    {
-      "term": "operator workload"
-    },
-    {
-      "term": "cognitive load"
+      "term": "driving behavior"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004657",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004657",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -76,6 +52,11 @@
       "identifier": "10.18112/openneuro.ds004657.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004657",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
