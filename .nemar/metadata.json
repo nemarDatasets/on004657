@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Driving with Autonomous Aids",
-  "description": "This dataset comprises multimodal physiological and behavioral recordings (EEG, EOG, ECG, EDA, and gaze tracking) collected during a semi-automated driving task designed to study trust in automation (TiA). Participants performed lane maintenance, following distance, and collision avoidance tasks under varying levels of autonomous driving assistance, with the aim of developing quantitative metrics that predict and track changes in operator trust. The research supports the development of psychophysiology-based indicators for real-time trust monitoring in human-autonomy interaction, relevant to military vehicle survivability and human factors research.",
-  "methods_description": "Participants completed a semi-automated driving task involving lane maintenance, following distance regulation, and collision avoidance, with an optional automated driving assistant that could manage following distance and/or lane position but not collision avoidance. Physiological data including EEG, EOG, ECG, EDA, and gaze position were recorded across six session conditions (Practice, Manual driving, Full Bad autonomy, Full Good autonomy, Speed Bad autonomy, and Speed Good autonomy).",
+  "description": "EEG dataset from a semi-automated driving task designed to study human trust in automation (TiA). Participants performed lane maintenance, following-distance control, and pedestrian collision avoidance, with an optional automated assistant of varying quality that they could engage or disengage. Physiological (EEG, EOG, ECG, EDA, gaze) and behavioral measures were recorded to develop metrics that index and predict trust-based decisions.",
+  "methods_description": "Participants completed a simulated driving task under several conditions: practice, manual driving, and full or speed-only autonomy with good or bad reliability. Drivers could engage or disengage the automated assistant at will and responded to pedestrians with button presses. EEG, EOG, ECG, EDA, gaze position and vehicle control behavior were recorded.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,22 +19,26 @@
       "term": "EEG"
     },
     {
-      "term": "EOG"
-    },
-    {
-      "term": "ECG"
-    },
-    {
-      "term": "electrodermal activity"
-    },
-    {
       "term": "trust in automation"
     },
     {
-      "term": "human-autonomy interaction"
+      "term": "driving"
     },
     {
-      "term": "driving behavior"
+      "term": "human-automation interaction"
+    },
+    {
+      "term": "psychophysiology"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Automobile Driving",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001334"
     }
   ],
   "related_identifiers": [
@@ -74,7 +78,7 @@
     "eeg"
   ],
   "sizes": [
-    "46.2 GB (239 files)"
+    "43.06 GB (239 files)"
   ],
   "formats": [
     ".fdt",
